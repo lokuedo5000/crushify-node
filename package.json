@@ -1,0 +1,45 @@
+{
+  "name": "crushify-node",
+  "version": "1.0.0",
+  "description": "Image processing and optimization tool supporting multiple formats",
+  "main": "main.mjs",
+  "type": "module",
+  "types": "./types/main.d.ts",
+  "files": [
+    "test.mjs",
+    "cli.mjs",
+    "main.mjs",
+    "types/*.d.ts",
+    "README.md",
+    "utils/**/*",
+    "js/**/*"
+  ],
+  "scripts": {
+    "test": "node test.mjs",
+    "prepublishOnly": "npm test"
+  },
+  "keywords": [
+    "image",
+    "processing",
+    "optimization",
+    "compression",
+    "sharp",
+    "webp",
+    "avif",
+    "jpeg",
+    "png"
+  ],
+  "author": "NodeCreativo",
+  "license": "MIT",
+  "dependencies": {
+    "sharp": "^0.33.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lokuedo5000/crushify-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lokuedo5000/crushify-node/issues"
+  },
+  "homepage": "https://github.com/lokuedo5000/crushify-node#readme"
+}
